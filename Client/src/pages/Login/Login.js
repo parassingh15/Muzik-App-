@@ -1,7 +1,7 @@
 import React from "react";
 import "./Login.css";
-import login from '../img/login.PNG'
-import signup from '../img/signup.png'
+import login from '../../img/login.PNG'
+import signup from '../../img/signup.png'
 
 export default function Login() {
    
@@ -72,6 +72,10 @@ export default function Login() {
             <div className="input-field">
               <i className="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
+            </div>
+            <div className="input-field">
+              <i className="fas fa-lock"></i>
+              <input type="password" placeholder="Confirm Password" />
             </div>
             <button type="submit" className="btn solid">Sign Up</button>
             <p className="social-text">Or Sign Up with social Platforms</p>

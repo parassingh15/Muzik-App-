@@ -1,0 +1,21 @@
+.SongComponentHeading{
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+.Sub-SliderComponent{
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    
+}
+
+.Sub-SliderComponent::-webkit-scrollbar {
+    display: none;
+  }
+
+.card{
+    margin: 12px;
+    display: inline-block;
+    width: 96%
+
+}

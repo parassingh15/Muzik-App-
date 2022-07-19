@@ -10,7 +10,7 @@ export default function LandingTop() {
     else{
     document.getElementById('options').classList.remove('optionsHidden');
     document.getElementById('options').classList.add('options');
-    isChecked = true;
+    
   }
   }
   return (
@@ -23,7 +23,7 @@ export default function LandingTop() {
             <i className=" LandingIconDown fa-solid fa-caret-down"></i>
           </h5>
         </div>
-        <div className="options" id="options">
+        <div className="optionsHidden" id="options">
           <ul className="list-group list-group-flush">
             <li className="list-group-item">Settings <i className=" optionsIcons fa-solid fa-gear"></i></li>
             <li className="list-group-item">Profile <i className=" optionsIcons  fa-solid fa-user"></i></li>

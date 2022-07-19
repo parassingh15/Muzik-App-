@@ -19,3 +19,19 @@
     width: 96%
 
 }
+
+.SliderComponent_card_1{
+    display: flex;
+    flex-direction: row;
+}
+.playBtn_1{
+    width: 100%;
+}
+.playBtn_1>i{
+    margin-top: 4px;
+    font-size: 60px;
+    color: green;
+    float: right;
+    margin-right: 15px;
+
+}

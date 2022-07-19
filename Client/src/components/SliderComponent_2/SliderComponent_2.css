@@ -20,3 +20,16 @@
 
 }
 
+.cardComponent{
+    display: flex;
+    flex-direction: row;
+}
+
+.playBtn>i{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 35px;
+    color: green;
+}
+
+

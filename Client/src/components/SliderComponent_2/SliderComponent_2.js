@@ -21,13 +21,18 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent >
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
@@ -42,18 +47,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent >
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -63,18 +72,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -84,18 +97,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -105,18 +122,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -126,18 +147,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -147,18 +172,22 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>
     </div>
-
     <div className="SliderComponent_2_card">
       <Card className='cards-layout'>
       <CardActionArea>
@@ -168,121 +197,18 @@ export default function SliderComponent_2() {
           image={Login}
           alt="green iguana"
         />
-        <CardContent>
+        <CardContent className='cardComponent'>
+          <div className="card-heading">
           <Typography gutterBottom variant="h5" component="div">
             Song Name
           </Typography>
           <Typography variant="body2" color="text.secondary">
             Artist Name
           </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-    </div>
-
-    <div className="SliderComponent_2_card">
-      <Card className='cards-layout'>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Login}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Song Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Artist Name
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-    </div>
-
-    <div className="SliderComponent_2_card">
-      <Card className='cards-layout'>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Login}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Song Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Artist Name
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-    </div>
-
-
-    <div className="SliderComponent_2_card">
-      <Card className='cards-layout'>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Login}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Song Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Artist Name
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-    </div>
-
-
-    <div className="SliderComponent_2_card">
-      <Card className='cards-layout'>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Login}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Song Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Artist Name
-          </Typography>
-        </CardContent>
-      </CardActionArea>
-    </Card>
-    </div>
-
-
-    <div className="SliderComponent_2_card">
-      <Card className='cards-layout'>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          height="140"
-          image={Login}
-          alt="green iguana"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="div">
-            Song Name
-          </Typography>
-          <Typography variant="body2" color="text.secondary">
-            Artist Name
-          </Typography>
+          </div>
+          <div className="playBtn">
+          <i class="ss fa-solid fa-circle-play"></i>
+          </div>
         </CardContent>
       </CardActionArea>
     </Card>

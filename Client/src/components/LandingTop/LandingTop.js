@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, Outlet } from "react-router-dom";
 import "./LandingTop.css";
 export default function LandingTop() {
 
@@ -27,7 +28,10 @@ export default function LandingTop() {
           <ul className="list-group list-group-flush">
             <li className="list-group-item">Settings <i className=" optionsIcons fa-solid fa-gear"></i></li>
             <li className="list-group-item">Profile <i className=" optionsIcons  fa-solid fa-user"></i></li>
-            <li className="list-group-item">Log Out <i className=" optionsIcons  fa-solid fa-arrow-right-from-bracket"></i></li>
+            <li className="list-group-item">
+            <Link to="/" style={{textDecoration: "none", color: "#8c8d8e" , onMouseOver: "white"}}> Log Out<i className=" optionsIcons  fa-solid fa-arrow-right-from-bracket"></i></Link>
+            </li>
+            <Outlet/>
           </ul>
         </div>
         

@@ -33,7 +33,7 @@ export default function SliderComponent() {
                   </Typography>
                 </div>
                 <div className="playBtn_1">
-                  <i class="fa-solid fa-circle-play"></i>
+                  <i className="fa-solid fa-circle-play"></i>
                 </div>
               </CardContent>
             </CardActionArea>
@@ -59,7 +59,7 @@ export default function SliderComponent() {
                   </Typography>
                 </div>
                 <div className="playBtn_1">
-                  <i class="fa-solid fa-circle-play"></i>
+                  <i className="fa-solid fa-circle-play"></i>
                 </div>
               </CardContent>
             </CardActionArea>
@@ -85,7 +85,7 @@ export default function SliderComponent() {
                   </Typography>
                 </div>
                 <div className="playBtn_1">
-                  <i class="fa-solid fa-circle-play"></i>
+                  <i className="fa-solid fa-circle-play"></i>
                 </div>
               </CardContent>
             </CardActionArea>
@@ -111,7 +111,7 @@ export default function SliderComponent() {
                   </Typography>
                 </div>
                 <div className="playBtn_1">
-                  <i class="fa-solid fa-circle-play"></i>
+                  <i className="fa-solid fa-circle-play"></i>
                 </div>
               </CardContent>
             </CardActionArea>

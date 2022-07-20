@@ -3,6 +3,7 @@ import "./Login.css";
 
 import login from "../../img/login.PNG";
 import signup from "../../img/signup.png";
+import { Link } from "react-router-dom";
 
 export default function Login() {
   const [signUp, setSignUp] = useState({
@@ -21,7 +22,7 @@ export default function Login() {
     setSignUp({ ...signUp, [name]: value });
   };
 
-  const PostData = async (e) => {
+  /* const PostData = async (e) => {
     e.prevent.Default();
 
     const { username, email, password, confirmPassword } = user;
@@ -47,7 +48,7 @@ export default function Login() {
       window.alert("Success Registration");
       console.log("Succuss Register");
     }
-  };
+  }; */
 
   const signUpButton = () => {
     document.getElementById("container").classList.add("sign-up-mode");
@@ -84,7 +85,7 @@ export default function Login() {
               <input type="password" placeholder="Password" />
             </div>
             <button type="submit" className="btn solid">
-              Login
+            <Link to="/home" style={{textDecoration: "none", color: "white" }}> LOGIN</Link>
             </button>
             <p className="social-text">Or Sign in with social Platforms</p>
             <div className="social-media">
@@ -150,7 +151,7 @@ export default function Login() {
                 onChange={handleInputs}
               />
             </div>
-            <button type="submit" className="btn solid" onClick={PostData}>
+            <button type="submit" className="btn solid" /* onClick={PostData} */>
               Sign Up
             </button>
             <p className="social-text">Or Sign Up with social Platforms</p>
